@@ -1,5 +1,5 @@
 hello-world:
-  image: jerectharen/hello-world
+  image: jerectharen/hello-world:latest
 #  build: .
   ports:
     - '9090:8080'
