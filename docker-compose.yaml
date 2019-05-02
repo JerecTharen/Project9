@@ -1,0 +1,8 @@
+hello-world:
+  image: jerectharen/hello-world
+#  build: .
+  ports:
+    - '9090:8080'
+  environment:
+    - first=Jacob
+    - last=Bennett
